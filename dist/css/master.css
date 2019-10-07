@@ -1,0 +1,115 @@
+/* Reset Bootstrap */
+.navbar-dark .navbar-toggler {
+    border: 0;
+}
+
+/* Custom css */
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background: white
+}
+
+h1, h2, h3, h4, h5 {
+    font-weight: bold;
+}
+
+h2 {
+    font-size: 38px; 
+    line-height: 70px
+}
+
+h5 {
+    line-height: 10vh
+}
+
+.display-7 {
+    font-size: x-large;
+    font-weight: bold;
+}
+
+.my-text-primary {
+    color: #ffa200 !important;
+}
+
+.my-h-100 {
+    min-height: 100vh;
+}
+.my-h-50 {
+    min-height: 50vh;
+}
+.my-h-25 {
+    min-height: 25vh;
+}
+
+.bg-golden {
+    background-color: #FFA200;
+}
+
+.bg-clear {
+    background-color: white
+}
+
+.text-clear {
+    color: white
+}
+
+.text-clear:hover {color: black;
+text-decoration: none}
+
+.op {
+    opacity: 0.3;
+}
+
+.op-sm {
+    opacity: 0.5;
+}
+
+.op-md {
+    opacity: 0.7;
+}
+
+.op-lg {
+    opacity: 0.9;
+}
+
+.bg-image {
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+}
+
+.bg-image-girl {
+    background-image: url(../images/banner.png);
+}
+.bg-image-footer {
+    background-image: url(../images/footerbg.png);
+}
+.bg-image-destination {
+    background-image: url(../images/items-to-discover-things.jpg);
+}
+.bg-cover {
+    background-image: linear-gradient(225deg,#0abac2,#b2de94);
+}
+.bg-dark-sm {
+    background-color: #000000;
+}
+
+@media (min-width: 1200px) {
+    .container {
+        max-width: 1076px;
+    }
+}
+
+.btn-golden {
+    background-color: #FFA200;
+    color: white;
+    font-weight: bold
+}
+
+.btn-golden:hover {
+    color: black;
+}
