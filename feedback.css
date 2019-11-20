@@ -1,0 +1,89 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+  outline: none;
+  font-family: : helvetica;
+  color : gold;
+}
+
+body{
+  background: url("img/image1.jpg");
+  background-size: cover;
+  height: 100vh;
+}
+
+p, h1{
+  color: navy;
+  opacity: 0.7;
+  font-weight: bold;
+  padding: 10px;
+  margin-top: 0;
+  text-align: center;
+
+}
+#wrap{
+  position:absolute;
+  top : 50%;
+  transform: translateY(-50%);
+  width :100%;
+  padding :0 20px;
+}
+
+#judul{
+  font-family: Georgia;
+}
+
+.feedback-form{
+  max-width: 550px;
+  margin: 0 auto;
+  background: rgba(0,0,0,0,8);
+  padding: 30px;
+  border-radius: 5px;
+  display: flex;
+  box-shadow: 0 0 10px;
+}
+
+.input-form{
+  display:flex;
+  flex-direction: column;
+  margin-right: 4%;
+}
+
+.input-form,.message-form{
+  width: 48%;
+}
+
+.input-form, .input
+, .message-form ,textarea{
+  margin: 10px 0;
+  background: transparent;
+  border: 0;
+  border-bottom: 2px solid navy;
+  padding: 10px;
+  color: navy;
+  width: 100%;
+
+}
+.message-form textarea{
+  height: 185px;
+}
+
+#submit{
+  display: inline-block;
+  margin-left: 115px;
+  width:70%;
+  font-size:25px;
+  color:gold;
+  margin-top: 15px;
+  margin: 2px-weight: bold;
+  background-color: #fff;
+  border-radius: 3px;
+  border:none;
+}
+#submit:hover {
+  background: #3876ac;
+}
+.foto{
+    font-size: 14px;
+}
