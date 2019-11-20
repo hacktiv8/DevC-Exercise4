@@ -1,0 +1,78 @@
+body{
+  background: linear-gradient(-45deg, #35577D, #141E30);
+}
+h1{
+    color: gold;
+    font-family: Arial;
+}
+
+h2{
+    color: khaki;
+    font-family: : Georgia;
+
+}
+h3{
+  color: white;
+  margin-left: 10px;
+  font-weight: bolder;
+  font-family: arial;
+}
+p{
+    color: silver;
+    opacity:0.8;
+    font-family: Helvetica;
+    font-size: 15px;
+    padding: 0px;
+    margin:5px;
+    margin-left: 15px;
+    text-align: justify;
+
+}
+.edlist,
+.salist,
+.exp{
+    font-family: :Calibri;
+    font-size: 18px;
+    font-weight: normal;
+    color: beige;
+    opacity:0.9;
+
+}
+#coursework{
+    color: beige;
+    font-family: Arial;
+    font-size: 15px;
+
+}
+
+.alamatkontak{
+    font-size: 13px;
+    font-family: sans-serif;
+    text-align: center;
+    padding: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    color: gold;
+    opacity: 0.5;
+}
+
+.fotodiri {
+  -webkit-box-shadow: 5px 0px 5px 0px rgba(0, 0, 50, 0.97);
+  -moz-box-shadow: 5px 0px 5px 0px rgba(0, 0, 50, 0.97);
+  box-shadow: 5px 0px 5px 0px rgba(0, 0, 50, 0.97);
+  float: right;
+  width: 50px;
+}
+
+footer{
+    background: linear-gradient(45deg, #35567D, #141E30);
+    margin: 20px;
+    padding: 10px;
+}
+.foto{
+  color: #fff;
+  font-weight: 200;
+  font-family: : helvetica;
+  margin-right: 5px;
+
+}
