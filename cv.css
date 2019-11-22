@@ -1,0 +1,47 @@
+body{
+    background: linear-gradient(94deg, rgba(11,9,43,1) 0%, rgba(17,17,139,1) 43%, rgba(2,18,80,0.6138830532212884) 100%);
+}
+
+h1{
+    color: gold;
+}
+
+h2{
+    color: gold;
+    font: 22px arial, sans-serif;
+    font-weight: bold;
+}
+
+.foto{
+  float: center;
+  width: 180px;
+}
+
+p{
+    color: whitesmoke;
+    font-family: arial;
+    font-size: 16px;
+    padding: 0px;
+    margin:5px;
+    text-align: justify;
+}
+
+li{
+    color: whitesmoke;
+    font-family: arial;
+    font-size: 16px;
+    padding: 0px;
+    margin:5px;
+    text-align: justify;
+}
+
+.button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+  }
