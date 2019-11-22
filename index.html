@@ -1,11 +1,57 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <title>Exercise 4</title>
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
     <center>
         <h1>Final Project</h1>
     </center>
+
+    <div class="slideshow-container">
+
+        <div class="mySlides fade">
+            <img src="pic1.jpg" style="width:100%">
+            <div class="caption"><a class="button" href="#openModal">Click Me!</a> </div>
+        </div>
+
+        <div class="mySlides fade">
+            <img src="pic2.jpg" style="width:100%">
+            <div class="caption">You can leave me message <br>
+                <a class="button" href="form.html">Send me message here</a>
+            </div>
+        </div>
+
+        <div class="mySlides fade">
+            <img src="pic3.jpg" style="width:100%">
+            <div class="caption">Check My CV <br>
+                <a class="button" href="cv.html">Take a look</a>
+            </div>
+        </div>
+
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    </div>
+    <br>
+
+    <div style="text-align:center">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+    </div>
+
+    <script src="slider.js"></script>
+
+    <div id="openModal" class="modal">
+        <div> <a href="#close" title="Close" class="close">X</a>
+            <h2>Hacktiv8</h2>
+            <p>Devc Exercise 4</p>
+        </div>
+    </div>
+
 </body>
+
 </html>
